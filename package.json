@@ -16,6 +16,9 @@
     "url": "https://github.com/OfficeDev/msteams-samples-hello-world-nodejs/issues"
   },
   "homepage": "https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-nodejs",
+  "engine": {
+  	"node": "14.x"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
     "botbuilder": "^4.8.0",
